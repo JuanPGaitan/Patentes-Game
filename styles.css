@@ -1,0 +1,68 @@
+/*
+ Los colores de la paleta que busqué son:
+
+ F0EDCF
+ 40A2D8
+ 0B60B0 (este es el único que faltó agregar por si se tiene que agregar algo de otro color) Podría ser para la nav bar
+ 000000
+*/
+
+.container{
+    display: flex; 
+}
+body{
+    /*background-color: brown;*/
+    background-color: #40A2D8;
+}
+.blue{
+    background-color: #F0EDCF;
+    color: #000000;
+}
+/*.plates1 {
+    background-color: red;
+
+}*/
+
+.radiusTop {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.radiusBot{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.plates2 {
+background-color: black;
+justify-content: center;
+
+}
+p{
+    color:white;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.center{
+    justify-content: center;
+    padding: 0;
+}
+
+.white {
+    background-color: white;
+}
+
+.plateTop {
+    color: lightskyblue;
+    font-size: 10px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h3 {
+    font-size: 500%;
+}
