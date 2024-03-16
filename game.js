@@ -1,5 +1,6 @@
 var puntaje = 0;
 var value = 0;
+var puntajeAnterior = 0;
 
 $(".btn").click(function() {
 
@@ -10,6 +11,7 @@ $(".btn").click(function() {
 
   addValue(userChosenButton);
 
+  puntajeAnterior = puntaje;
   puntaje = puntaje + value;
 
   $("h3").text(puntaje);
