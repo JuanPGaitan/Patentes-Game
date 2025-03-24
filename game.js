@@ -53,6 +53,10 @@ function addValue(key) {
         value = 0;
         puntaje = 0;
         break;
+    case "Desacer":
+      puntaje = 0;
+      value = puntajeAnterior;
+        break;    
     default:
       break;
     };
